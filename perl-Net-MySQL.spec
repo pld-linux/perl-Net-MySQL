@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Net
-%define	pnam	MySQL
+%define		pdir	Net
+%define		pnam	MySQL
 Summary:	Net::MySQL - pure Perl MySQL network protocol interface
 Summary(pl):	Net::MySQL - czysto perlowy interfejs do protoko³u sieciowego MySQL-a
 Name:		perl-Net-MySQL
