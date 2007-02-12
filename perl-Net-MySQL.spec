@@ -6,7 +6,7 @@
 %define		pdir	Net
 %define		pnam	MySQL
 Summary:	Net::MySQL - pure Perl MySQL network protocol interface
-Summary(pl):	Net::MySQL - czysto perlowy interfejs do protoko≥u sieciowego MySQL-a
+Summary(pl.UTF-8):   Net::MySQL - czysto perlowy interfejs do protoko≈Çu sieciowego MySQL-a
 Name:		perl-Net-MySQL
 Version:	0.08
 Release:	1
@@ -28,13 +28,13 @@ libmysqlclient for this module to work. It means this module enables
 you to connect to MySQL server from some operation systems which MySQL
 is not ported.
 
-%description -l pl
+%description -l pl.UTF-8
 Net::MySQL to czysto perlowy interfejs kliencki do bazy danych MySQL.
-Ten modu≥ jest implementacj± protoko≥u sieciowego miÍdzy serwerem a
-klientem MySQL-a, przez co nie wymaga do dzia≥ania zewnÍtrznej
+Ten modu≈Ç jest implementacjƒÖ protoko≈Çu sieciowego miƒôdzy serwerem a
+klientem MySQL-a, przez co nie wymaga do dzia≈Çania zewnƒôtrznej
 biblioteki klienckiej MySQL-a, takiej jak libmysqlclient. Oznacza to,
-øe modu≥ ten umoøliwia po≥±czenie z serwerem MySQL nawet z systemu
-operacyjnego, na ktÛry MySQL nie zosta≥ sportowany.
+≈ºe modu≈Ç ten umo≈ºliwia po≈ÇƒÖczenie z serwerem MySQL nawet z systemu
+operacyjnego, na kt√≥ry MySQL nie zosta≈Ç sportowany.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
