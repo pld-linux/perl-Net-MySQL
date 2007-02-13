@@ -6,7 +6,7 @@
 %define		pdir	Net
 %define		pnam	MySQL
 Summary:	Net::MySQL - pure Perl MySQL network protocol interface
-Summary(pl.UTF-8):   Net::MySQL - czysto perlowy interfejs do protokołu sieciowego MySQL-a
+Summary(pl.UTF-8):	Net::MySQL - czysto perlowy interfejs do protokołu sieciowego MySQL-a
 Name:		perl-Net-MySQL
 Version:	0.08
 Release:	1
