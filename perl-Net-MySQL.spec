@@ -8,13 +8,13 @@
 Summary:	Net::MySQL - pure Perl MySQL network protocol interface
 Summary(pl.UTF-8):	Net::MySQL - czysto perlowy interfejs do protokołu sieciowego MySQL-a
 Name:		perl-Net-MySQL
-Version:	0.09
+Version:	0.11
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Net/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	c2447866e763414debbbcb58d78e10ce
+# Source0-md5:	35b62e0f55fa5e2a3d308f602751bb68
 URL:		http://search.cpan.org/dist/Net-MySQL/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
